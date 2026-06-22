@@ -17,10 +17,6 @@ author = "Roman Sherstnev"
   id = "rsherstnev"
   icon = "fab fa-github"
 
-[[social.links]]
-  type = "rss"
-  icon = "fas fa-rss"
-  noblank = true
 
 [comments]
 # Global switch for the post-comment system. [true | false]

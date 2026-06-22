@@ -17,7 +17,7 @@ hasCJKLanguage = false
 
 # Make sure to include JSON output to support the search functionality.
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
 
 # Import the theme.
 [module]
