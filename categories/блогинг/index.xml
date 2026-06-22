@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Блогинг on NordeN Blog</title><link>https://rsherstnev.github.io/categories/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD%D0%B3/</link><description>Recent content in Блогинг on NordeN Blog</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 11 Aug 2019 00:34:00 +0800</lastBuildDate><atom:link href="https://rsherstnev.github.io/categories/%D0%B1%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD%D0%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>Настройка фавикона</title><link>https://rsherstnev.github.io/post/2019-08-11-customize-the-favicon/</link><pubDate>Sun, 11 Aug 2019 00:34:00 +0800</pubDate><guid>https://rsherstnev.github.io/post/2019-08-11-customize-the-favicon/</guid><description>&lt;p&gt;&lt;a href="https://www.favicon-generator.org/about/"&gt;Фавиконы&lt;/a&gt; &lt;a href="https://github.com/cotes2020/jekyll-theme-chirpy/"&gt;&lt;strong&gt;Chirpy&lt;/strong&gt;&lt;/a&gt; находятся в каталоге &lt;code class="filepath"&gt;assets/img/favicons/&lt;/code&gt;. Возможно, вы захотите заменить их своими. В следующих разделах описано, как создать и заменить фавиконы по умолчанию.&lt;/p&gt;
+&lt;h2 id="генерация-фавикона" id=генерация-фавикона&gt;
+ 
+ &lt;span class="me-2"&gt;Генерация фавикона&lt;/span&gt;
+ &lt;a href="#%d0%b3%d0%b5%d0%bd%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d1%84%d0%b0%d0%b2%d0%b8%d0%ba%d0%be%d0%bd%d0%b0" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Подготовьте квадратное изображение (PNG, JPG или SVG) размером 512×512 или больше, затем перейдите к онлайн-инструменту &lt;a href="https://realfavicongenerator.net/"&gt;&lt;strong&gt;Real Favicon Generator&lt;/strong&gt;&lt;/a&gt; и нажмите кнопку &lt;kbd&gt;Select your Favicon image&lt;/kbd&gt;, чтобы загрузить файл.&lt;/p&gt;
+&lt;p&gt;На следующем шаге сайт покажет все сценарии использования. Можно оставить параметры по умолчанию, прокрутить страницу вниз и нажать кнопку &lt;kbd&gt;Generate your Favicons and HTML code&lt;/kbd&gt;.&lt;/p&gt;</description></item><item><title>Начало работы</title><link>https://rsherstnev.github.io/post/2019-08-09-getting-started/</link><pubDate>Fri, 09 Aug 2019 20:55:00 +0800</pubDate><guid>https://rsherstnev.github.io/post/2019-08-09-getting-started/</guid><description>&lt;blockquote class="prompt-warning"&gt;&lt;p&gt;&lt;strong&gt;ПРИМЕЧАНИЕ:&lt;/strong&gt; Это руководство не полностью перенесено из версии для Jekyll — используйте с осторожностью.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="создание-репозитория-сайта" id=создание-репозитория-сайта&gt;
+ 
+ &lt;span class="me-2"&gt;Создание репозитория сайта&lt;/span&gt;
+ &lt;a href="#%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d1%81%d0%b0%d0%b9%d1%82%d0%b0" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;При создании репозитория сайта у вас есть два варианта в зависимости от ваших потребностей:&lt;/p&gt;
+&lt;h3 id="вариант-1-использование-стартового-шаблона-рекомендуется" id=вариант-1-использование-стартового-шаблона-рекомендуется&gt;
+ 
+ &lt;span class="me-2"&gt;Вариант 1. Использование стартового шаблона (рекомендуется)&lt;/span&gt;
+ &lt;a href="#%d0%b2%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%82-1-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%81%d1%82%d0%b0%d1%80%d1%82%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d1%88%d0%b0%d0%b1%d0%bb%d0%be%d0%bd%d0%b0-%d1%80%d0%b5%d0%ba%d0%be%d0%bc%d0%b5%d0%bd%d0%b4%d1%83%d0%b5%d1%82%d1%81%d1%8f" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h3&gt;&lt;p&gt;Этот подход упрощает обновления, изолирует ненужные файлы и отлично подходит для тех, кто хочет сосредоточиться на написании с минимальной настройкой.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Войдите в GitHub и перейдите к &lt;a href="https://github.com/geekifan/chirpy-starter"&gt;&lt;strong&gt;стартовому шаблону&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Нажмите кнопку &lt;kbd&gt;Use this template&lt;/kbd&gt;, затем выберите &lt;kbd&gt;Create a new repository&lt;/kbd&gt;.&lt;/li&gt;
+&lt;li&gt;Назовите новый репозиторий &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt;, заменив &lt;code&gt;username&lt;/code&gt; на ваш GitHub-логин в нижнем регистре.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="вариант-2-форк-темы" id=вариант-2-форк-темы&gt;
+ 
+ &lt;span class="me-2"&gt;Вариант 2. Форк темы&lt;/span&gt;
+ &lt;a href="#%d0%b2%d0%b0%d1%80%d0%b8%d0%b0%d0%bd%d1%82-2-%d1%84%d0%be%d1%80%d0%ba-%d1%82%d0%b5%d0%bc%d1%8b" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h3&gt;&lt;p&gt;Этот вариант удобен для изменения функций или дизайна, но усложняет обновления. Выбирайте его только если вы знакомы с Jekyll и планируете серьёзно модифицировать тему.&lt;/p&gt;</description></item><item><title>Написание нового поста</title><link>https://rsherstnev.github.io/post/2019-08-08-write-a-new-post/</link><pubDate>Thu, 08 Aug 2019 14:10:00 +0800</pubDate><guid>https://rsherstnev.github.io/post/2019-08-08-write-a-new-post/</guid><description>&lt;p&gt;Это руководство покажет, как писать посты в шаблоне &lt;em&gt;Chirpy&lt;/em&gt;. Его стоит прочитать, даже если вы уже работали с Hugo, — многие функции требуют указания конкретных переменных.&lt;/p&gt;
+&lt;h2 id="имя-файла-и-путь" id=имя-файла-и-путь&gt;
+ 
+ &lt;span class="me-2"&gt;Имя файла и путь&lt;/span&gt;
+ &lt;a href="#%d0%b8%d0%bc%d1%8f-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0-%d0%b8-%d0%bf%d1%83%d1%82%d1%8c" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Создайте новый файл командой &lt;code&gt;hugo new content/post/YYYY-MM-DD-TITLE.md&lt;/code&gt;. Путь можно изменить, но все посты должны находиться в &lt;code class="filepath"&gt;content/post&lt;/code&gt; корневого каталога.&lt;/p&gt;
+&lt;h2 id="front-matter" id=front-matter&gt;
+ 
+ &lt;span class="me-2"&gt;Front Matter&lt;/span&gt;
+ &lt;a href="#front-matter" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;В начале поста необходимо заполнить &lt;a href="https://gohugo.io/content-management/front-matter/"&gt;Front Matter&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="code-block"&gt;
+ &lt;div class="code-header"&gt; &lt;span data-label-text="YAML"&gt;&lt;i class="fas fa-code fa-fw small"&gt;&lt;/i&gt;&lt;/span&gt; &lt;button aria-label="copy" data-title-succeed="Copied!"&gt;&lt;i class="far fa-clipboard"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;
+ 
+ &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;ЗАГОЛОВОК&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;date&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;draft&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Дополнительные поля по необходимости:&lt;/p&gt;</description></item><item><title>Текст и типографика</title><link>https://rsherstnev.github.io/post/2019-08-08-text-and-typography/</link><pubDate>Thu, 08 Aug 2019 11:33:00 +0800</pubDate><guid>https://rsherstnev.github.io/post/2019-08-08-text-and-typography/</guid><description>&lt;h2 id="заголовки" id=заголовки&gt;
+ 
+ &lt;span class="me-2"&gt;Заголовки&lt;/span&gt;
+ &lt;a href="#%d0%b7%d0%b0%d0%b3%d0%be%d0%bb%d0%be%d0%b2%d0%ba%d0%b8" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;!-- markdownlint-capture --&gt;
+&lt;!-- markdownlint-disable --&gt;
+&lt;h1 id="заголовок-h1" class=mt-4 mb-0 data-toc-skip=true id=заголовок-h1&gt;
+ Заголовок H1
+&lt;/h1&gt;&lt;h2 id="заголовок-h2" class=mt-4 mb-0 data-toc-skip=true id=заголовок-h2&gt;
+ Заголовок H2
+&lt;/h2&gt;&lt;h3 id="заголовок-h3" class=mt-4 mb-0 data-toc-skip=true id=заголовок-h3&gt;
+ Заголовок H3
+&lt;/h3&gt;&lt;h4 id="заголовок-h4" class=mt-4 data-toc-skip=true id=заголовок-h4&gt;
+ Заголовок H4
+&lt;/h4&gt;&lt;!-- markdownlint-restore --&gt;
+&lt;h2 id="абзац" id=абзац&gt;
+ 
+ &lt;span class="me-2"&gt;Абзац&lt;/span&gt;
+ &lt;a href="#%d0%b0%d0%b1%d0%b7%d0%b0%d1%86" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.&lt;/p&gt;</description></item></channel></rss>
