@@ -32,7 +32,10 @@ jobs:
           key: ${{ env.cache-name }}
       
       - name: Setup Dart Sass
-        run: sudo snap install dart-sass
+        run: |
+          SASS_VERSION=$(curl -s https://api.github.com/repos/sass/dart-sass/releases/latest | grep tag_name | cut -d '"' -f4)
+          curl -sL https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/dart-sass-${SASS_VERSION}-linux-x64.tar.gz | tar xz
+          echo "$PWD/dart-sass" >> $GITHUB_PATH
 
       - name: Setup Go
         uses: actions/setup-go@v5
