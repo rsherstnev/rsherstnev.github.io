@@ -1,0 +1,11 @@
+# Дополнение к переводам темы hugo-theme-chirpy для русского языка
+
+# Формат дат в странице архива (Go time.Format / dayjs)
+df:
+  archives:
+    strftime: "01"
+    dayjs: "MM"
+
+# Метка закреплённого поста
+post:
+  pin_prompt: Закреплено
